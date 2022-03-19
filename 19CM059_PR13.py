@@ -19,3 +19,24 @@ for i in range(start , end ) :
 
 
 list1 = [1 , 2 , 4 , 6 , 12 , 18 , 21 , 15 , 8 , 3 , 5 , 17 , 16 , 15 , 10]
+list_baby = []
+list_school = []
+list_adult = []
+
+for i in list1 :
+    if(i<=6):
+        list_baby.append(i)
+    if(i>6 and i<18):
+        list_school.append(i)
+    if(i>=18):
+        list_adult.append(i)
+
+print(list1)
+print(list_baby)
+print(list_school)
+print(list_adult)
+
+print("length of list1 is",len(list1))
+print("length of list_baby is",len(list_baby))
+print("length of list_school is",len(list_school))
+print("length of list_adult is",len(list_adult))
