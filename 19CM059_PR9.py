@@ -10,13 +10,14 @@ my_list.append("operating system")
 print(my_list)
 
 #add element at given index 
-my_list.insert(1, "php")
+#my_list.insert(1, "php")
+my_list[3] = "llb"
 print(my_list)
 
 #remove element from list
-my_list.remove("java")       
+my_list.remove("llb")       
 print(my_list)
-
+my_list.pop(1)
 # sort the list
 my_list.sort()
 print(my_list)
@@ -27,3 +28,4 @@ print(my_list)
 
 # counting elements 
 print(len(my_list))
+print(max(my_list))
