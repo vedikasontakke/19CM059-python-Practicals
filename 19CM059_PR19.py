@@ -3,5 +3,23 @@
 # append Hello world at the end of a file.
 
 # to create a new file and write in it 
-with open('19CM059_PR19.txt', 'w') as f:
-    f.write('Hello World')
+#with open('ved.txt', 'a') as f:
+ #   f.write('Hello World')
+
+
+f = open("dummy.txt", "w")
+f.write("Hello World")
+f.close()
+
+# open a file in write mode
+f = open("dummy.txt", "w")
+print(f.write("hello world"))
+
+# open a file in append mode
+f = open("dummy.txt", "a")
+f.write("\nHello World")
+f.close()
+
+# read content of file
+f = open("dummy.txt", "r")
+print(f.read())   
